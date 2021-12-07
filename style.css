@@ -1,0 +1,246 @@
+/*------------------------------------Fonts--------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+  
+/*-----------------------------------Zero---------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+/*--------------------------------------------------------------------------Start---------------------------------------------------------------------------------*/
+.Container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.25), 10px 0px 20px rgba(0, 0, 0, 0.25);
+}
+/*------------------------------------Header------------------------------------------*/
+.Header {
+    display: flex;
+    justify-content:space-around;
+    max-width: 1536px;
+    height: 200px;
+    background: #1D3E45 url('img/Line1.png') center 166px/82% auto no-repeat;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+.Ellipses {
+    display: flex;
+    justify-content:space-between;
+    min-width: 250px;
+}
+.Ellipse1 {
+    min-width: 30px;
+    height: 60px;
+    background: #7EAD38;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: inset 7px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px/60px;
+    margin-top: 70px;
+}
+.Ellipse2 {
+    min-width: 30px;
+    height: 60px;
+    background: #BBBB1C;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: inset 7px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px/60px;
+    margin-top: 70px;
+}
+.Ellipse3 {
+    min-width: 30px;
+    height: 60px;
+    background: #29121C;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: inset 7px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px/60px;
+    margin-top: 70px;
+}
+.image_logo {
+    min-width: 165px;
+    height: 200px;
+    background: url('img/olive2.png') 0 0/contain no-repeat;
+}
+.Header_text_logo {
+    width: auto;
+    height: 173px;
+    font-family: Bebas Neue;
+    font-size: 144px;
+    color: #FFFFFF;
+    margin: 15px 0px 14px 0px;
+    padding-top: 15px;
+}
+
+/*------------------------------------.Body------------------------------------------*/
+.Body {
+    max-width: 1536px;
+    height: 1000px;
+    background: url('img/olive.png') 95% 150px/720px 700px no-repeat, linear-gradient(210.53deg, #1C3B41 0%, #96C2CB 100%);
+}
+
+.Body_text_logo {
+    width: 514px;
+    height: 300px;
+    font-family: Cinzel Decorative;
+    font-size: 144px;
+    color: #FFFFFF;
+    margin: 0 auto 46px auto;
+    padding-top: 130px;
+}
+
+.buttons_left {
+    width: 700px;
+    height: 450px;
+    margin-left: 75px;
+}
+
+.button1link {
+    display: flex;
+    height: 100px;
+    margin-bottom: 75px;
+}
+.img_button1link {
+    width: 50px;
+    height: 100px;
+    background: #7EAD38;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25), inset -10px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px/100px;
+}
+.button1link:hover .img_button1link{
+    box-shadow: none;
+}
+.text_button1link {
+    font-family: Cinzel Decorative;
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-left: 28px;
+    padding-top: 20px;
+}
+.button1link:hover .text_button1link {
+    font-weight: bold;
+}
+
+.button2link {
+    display: flex;
+    height: 100px;
+    margin-bottom: 75px;
+}
+.img_button2link {
+    width: 50px;
+    height: 100px;
+    background: #BBBB1C;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25), inset -10px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px/100px;
+}
+.button2link:hover .img_button2link {
+    box-shadow: none;
+}
+.text_button2link {
+    font-family: Cinzel Decorative;
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-left: 28px;
+    padding-top: 20px;
+}
+.button2link:hover .text_button2link {
+    font-weight: bold;
+}
+
+.button3link {
+    display: flex;
+    height: 100px;
+}
+.img_button3link {
+    width: 50px;
+    height: 100px;
+    background: #29121C;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: -5px 10px 4px rgba(0, 0, 0, 0.25), inset -10px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px/100px;
+}
+.button3link:hover .img_button3link {
+    box-shadow: none;
+}
+.text_button3link {
+    font-family: Cinzel Decorative;
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-left: 28px;
+    padding-top: 20px;
+}
+.button3link:hover .text_button3link {
+    font-weight: bold;
+}
+
+/*------------------------------------Footer------------------------------------------*/
+.Footer {
+    max-width: 1536px;
+    height: 200px;
+    background: #50757C url('img/Line1.png') center 120px/82% auto no-repeat;
+}
+.Footer_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    height: 120px;
+}
+.Footer_link {
+    width: auto;
+    font-family: Changa;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+}
+.Footer_link:hover {
+    text-decoration-line: underline;
+}
+
+.copyright {
+    height: 80px;
+    font-family: Chango;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
